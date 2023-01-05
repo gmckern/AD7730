@@ -1,0 +1,16 @@
+AD7730	KEYWORD1
+reset	KEYWORD2
+internalCalibrate	KEYWORD2
+systemZeroCalibrate	KEYWORD2
+systemFullCalibrate	KEYWORD2
+waitForReady	KEYWORD2
+offsetDAC	KEYWORD2
+range	KEYWORD2
+vRef	KEYWORD2
+channel	KEYWORD2
+filter	KEYWORD2
+continuousConversionMode	KEYWORD2
+unipolar	KEYWORD2
+bipolar	KEYWORD2
+read	KEYWORD2
+readVoltage	KEYWORD2
