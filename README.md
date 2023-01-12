@@ -32,7 +32,7 @@ https://forum.arduino.cc/t/arduino-and-the-ad7730/320036
 | 20 | ~RDY | Arduino D9 | |
 | 21 | DOUT | Arduino D12 | Keep this wire as short as possible |
 | 22 | DIN | Arduino D11 | Keep this wire as short as possible |
-| 23 | DVDD | 5v | |
+| 23 | DVDD | 5v or 3.3V | Digital voltage should match the board (3.3V for Arduino DUE) |
 | 24 | DGND | GND | Must be connected to the Arduino DIGITAL GND pin! |
 
 ***Important Note***
