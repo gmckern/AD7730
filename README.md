@@ -13,8 +13,8 @@ https://forum.arduino.cc/t/arduino-and-the-ad7730/320036
 | 1          | SCLK     | Arduino D13 |                                                             |
 | 2	         | MCLK IN  | Crystal +   | External clock source connects to this pin only             |
 | 3	         | MCLK OUT | Crystal -   | Leave pin unconnected when using an external clock source   |
-| 4	         | POL      | 5v          |                                                             |
-| 5 | ~SYNC	| 5v | |
+| 4	         | POL      | 5V or 3.3V  | Logic High (should Match DVDD)                              |
+| 5 | ~SYNC	| 5V or 3.3V | Logic High (should Match DVDD)  |
 | 6	| ~RESET | Arduino D8 | |
 | 7	| VBIAS	| | |
 | 8	| AGND | GND | |
@@ -27,12 +27,12 @@ https://forum.arduino.cc/t/arduino-and-the-ad7730/320036
 | 15 | REFIN- | GND | |
 | 16 | ACX | | |
 | 17 | ~ACX	| | |
-| 18 | ~STANDBY | 5v | |
+| 18 | ~STANDBY | 5V or 3.3V | Logic High (should Match DVDD)  |
 | 19 | ~CS | Arduino D10 | |
 | 20 | ~RDY | Arduino D9 | |
 | 21 | DOUT | Arduino D12 | Keep this wire as short as possible |
 | 22 | DIN | Arduino D11 | Keep this wire as short as possible |
-| 23 | DVDD | 5v or 3.3V | Digital voltage should match the board (3.3V for Arduino DUE) |
+| 23 | DVDD | 5V or 3.3V | Digital voltage should match the board (3.3V for Arduino DUE) |
 | 24 | DGND | GND | Must be connected to the Arduino DIGITAL GND pin! |
 
 ***Important Note***
