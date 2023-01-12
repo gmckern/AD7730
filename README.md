@@ -11,7 +11,7 @@ https://forum.arduino.cc/t/arduino-and-the-ad7730/320036
 | AD7730 pin | Mnemonic | Arduino Pin | Notes                                                       |
 | ---------- | -------- | ----------- | ---                                                         |
 | 1          | SCLK     | Arduino D13 |                                                             |
-| 2	         | MCLK IN  | Crystal +   | Connect to this pin only when using an external clock source|
+| 2	         | MCLK IN  | Crystal +   | External clock source connects to this pin only             |
 | 3	         | MCLK OUT | Crystal -   | Leave pin unconnected when using an external clock source   |
 | 4	         | POL      | 5v          |                                                             |
 | 5 | ~SYNC	| 5v | |
