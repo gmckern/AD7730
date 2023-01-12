@@ -40,4 +40,5 @@ The AD7730 chip communicates via SPI. SPI is not reliable over long wires.
 Even using off the shelf Dupont wires for the SPI pins may be unreliable. 
 Try to keep your SPI wires under 3 inches or so. 
 Also, make sure to connect the digital ground pin on the AD7730 (pin 24) to the ground pin on the digital side of the Arduino.
+According to the AD7730 datasheet, the digital supply voltage can be 5V nominal, or 3V nominal. Running this chip with the Arduino UNO is simple as both digital and analog HIGH will be 5V. However, it should be possible to run this chip with the Arduino DUE board (which operates at 3.3V) In that case you would supply the digital side of the AD7730 chip with 3.3V and the analog side with 5V. All digital communication and logic pins would operate at 3.3V rather than 5V. 
 
