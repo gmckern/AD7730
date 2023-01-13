@@ -279,7 +279,7 @@ float AD7730::readVoltage(){
 	int byte2 = SPI.transfer(0x00);//read second byte
 	digitalWrite(_CS, HIGH);
 	
-	int raw = read();
+	unsigned long raw = read();
 	int unipolar = (byte1 & 0xe0) >> 4;//mask out and shift polarity bit; 0 is bipolar, 1 is unipolar
 	float mV;
 	
